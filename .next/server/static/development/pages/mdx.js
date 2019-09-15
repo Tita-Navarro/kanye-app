@@ -88,55 +88,10 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./components/Button.js":
-/*!******************************!*\
-  !*** ./components/Button.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-
-
-var _jsxFileName = "C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\Button.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
-
-const Button = (_ref) => {
-  let {
-    children
-  } = _ref,
-      props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children"]);
-
-  return __jsx("button", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
-    className: "jsx-3282782010" + " " + (props.className != null && props.className || ""),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: undefined
-  }), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    id: "3282782010",
-    __self: undefined
-  }, "button.jsx-3282782010{color:var(--color-2);background:var(--color-1);text-transform:uppercase;cursor:pointer;border:1px solid var(--color-2);border-radius:3px;padding:0.5rem 2rem;}button.jsx-3282782010:hover{color:var(--color-1);background:var(--color-2);border:1px solid var(--color-1);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcQnV0dG9uLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlnQixBQUc4QixBQVNBLHFCQVJLLEFBU0EsMEJBUkQsQUFTTyx5QkFSakIsT0FTakIsUUFSa0MsZ0NBQ2Qsa0JBQ0Usb0JBQ3RCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcQnV0dG9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgQnV0dG9uID0gKHsgY2hpbGRyZW4sIC4uLnByb3BzIH0pID0+IChcclxuICA8YnV0dG9uIHsuLi5wcm9wc30+XHJcbiAgICB7Y2hpbGRyZW59XHJcblxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICBidXR0b24ge1xyXG4gICAgICAgIGNvbG9yOiB2YXIoLS1jb2xvci0yKTtcclxuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci0xKTtcclxuICAgICAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xyXG4gICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1jb2xvci0yKTtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAzcHg7XHJcbiAgICAgICAgcGFkZGluZzogMC41cmVtIDJyZW07XHJcbiAgICAgIH1cclxuICAgICAgYnV0dG9uOmhvdmVyIHtcclxuICAgICAgICBjb2xvcjogdmFyKC0tY29sb3ItMSk7XHJcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tY29sb3ItMik7XHJcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tY29sb3ItMSk7XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2J1dHRvbj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbjtcclxuIl19 */\n/*@ sourceURL=C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\Button.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Button);
-
-/***/ }),
 
 /***/ "./components/Card.js":
 /*!****************************!*\
@@ -395,10 +350,10 @@ const Layout = ({
 
 /***/ }),
 
-/***/ "./components/Quote.js":
-/*!*****************************!*\
-  !*** ./components/Quote.js ***!
-  \*****************************/
+/***/ "./components/mdx-components.js":
+/*!**************************************!*\
+  !*** ./components/mdx-components.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -408,82 +363,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Button */ "./components/Button.js");
-var _jsxFileName = "C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\Quote.js";
+var _jsxFileName = "C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\mdx-components.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-const Quote = ({
-  text,
-  helpText,
-  onClick
-}) => __jsx("div", {
-  className: "jsx-1963137965" + " " + "quote",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, __jsx("p", {
-  className: "jsx-1963137965" + " " + "quote-text",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, text), __jsx("div", {
-  className: "jsx-1963137965" + " " + "footer",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx("p", {
-  className: "jsx-1963137965",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, helpText), __jsx(_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  type: "button",
-  onClick: onClick,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "Refresh")), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "1963137965",
-  __self: undefined
-}, ".quote.jsx-1963137965{border-radius:3px;}.quote-text.jsx-1963137965{font-size:1.7rem;padding:2rem 1rem;}.footer.jsx-1963137965{display:grid;grid-auto-flow:column;grid-template-columns:1fr min-content;padding:2rem 1rem;border-top:1px solid var(--color-1);}.footer.jsx-1963137965 p.jsx-1963137965{color:var(--color-3);font-size:1.6rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcUXVvdGUuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWWdCLEFBRzJCLEFBR0QsQUFJSixBQU9RLGFBTkMsSUFKSixDQUhwQixHQWNtQixjQVZuQixBQUl3QyxHQU94QyxtQ0FOb0Isa0JBQ2tCLG9DQUN0QyIsImZpbGUiOiJDOlxcVXNlcnNcXHRpdGFfXFxEb2N1bWVudHNcXE5leHRKc1xca2FueWUtYXBwXFxrYW55ZS1hcHBcXGNvbXBvbmVudHNcXFF1b3RlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEJ1dHRvbiBmcm9tICcuL0J1dHRvbic7XHJcblxyXG5jb25zdCBRdW90ZSA9ICh7IHRleHQsIGhlbHBUZXh0LCBvbkNsaWNrIH0pID0+IChcclxuICA8ZGl2IGNsYXNzTmFtZT1cInF1b3RlXCI+XHJcbiAgICA8cCBjbGFzc05hbWU9XCJxdW90ZS10ZXh0XCI+e3RleHR9PC9wPlxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJmb290ZXJcIj5cclxuICAgICAgPHA+e2hlbHBUZXh0fTwvcD5cclxuICAgICAgPEJ1dHRvbiB0eXBlPVwiYnV0dG9uXCIgb25DbGljaz17b25DbGlja30+XHJcbiAgICAgICAgUmVmcmVzaFxyXG4gICAgICA8L0J1dHRvbj5cclxuICAgIDwvZGl2PlxyXG5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLnF1b3RlIHtcclxuICAgICAgICBib3JkZXItcmFkaXVzOiAzcHg7XHJcbiAgICAgIH1cclxuICAgICAgLnF1b3RlLXRleHQge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMS43cmVtO1xyXG4gICAgICAgIHBhZGRpbmc6IDJyZW0gMXJlbTtcclxuICAgICAgfVxyXG4gICAgICAuZm9vdGVyIHtcclxuICAgICAgICBkaXNwbGF5OiBncmlkO1xyXG4gICAgICAgIGdyaWQtYXV0by1mbG93OiBjb2x1bW47XHJcbiAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgbWluLWNvbnRlbnQ7XHJcbiAgICAgICAgcGFkZGluZzogMnJlbSAxcmVtO1xyXG4gICAgICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCB2YXIoLS1jb2xvci0xKTtcclxuICAgICAgfVxyXG4gICAgICAuZm9vdGVyIHAge1xyXG4gICAgICAgIGNvbG9yOiB2YXIoLS1jb2xvci0zKTtcclxuICAgICAgICBmb250LXNpemU6IDEuNnJlbTtcclxuICAgICAgfVxyXG4gICAgYH08L3N0eWxlPlxyXG4gIDwvZGl2PlxyXG4pO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgUXVvdGU7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\Quote.js */"));
-
-/* harmony default export */ __webpack_exports__["default"] = (Quote);
-
-/***/ }),
-
-/***/ "./lib/quote-api.js":
-/*!**************************!*\
-  !*** ./lib/quote-api.js ***!
-  \**************************/
-/*! exports provided: getQuote */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getQuote", function() { return getQuote; });
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! isomorphic-fetch */ "isomorphic-fetch");
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_0__);
-
-const getQuote = async (req, path) => {
-  const res = await isomorphic_fetch__WEBPACK_IMPORTED_MODULE_0___default()('https://api.kanye.rest');
-  const data = await res.json();
-  return {
-    quote: data.quote
-  };
+const Components = {
+  h1: ({
+    children
+  }) => __jsx("h1", {
+    className: "jsx-310874572",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: undefined
+  }, children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "310874572",
+    __self: undefined
+  }, "h1.jsx-310874572{font-size:3rem;margin-bottom:2rem;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcbWR4LWNvbXBvbmVudHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBS2tCLEFBRzBCLGVBQ0ksbUJBQ3JCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcbWR4LWNvbXBvbmVudHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBDb21wb25lbnRzID0ge1xyXG4gIGgxOiAoeyBjaGlsZHJlbiB9KSA9PiAoXHJcbiAgICA8aDE+XHJcbiAgICAgIHtjaGlsZHJlbn1cclxuXHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBoMSB7XHJcbiAgICAgICAgICBmb250LXNpemU6IDNyZW07XHJcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgPC9oMT5cclxuICApLFxyXG4gICBwOiAoeyBjaGlsZHJlbiB9KSA9PiAoXHJcbiAgICAgPHA+XHJcbiAgICAgICB7Y2hpbGRyZW59XHJcblxyXG4gICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICBwIHtcclxuICAgICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcclxuICAgICAgICAgICBjb2xvcjpncmVlbjtcclxuICAgICAgICAgfVxyXG4gICAgICAgYH08L3N0eWxlPlxyXG4gICAgIDwvcD5cclxuICAgKSxcclxuICAgYTogKHsgaHJlZiwgY2hpbGRyZW4gfSkgPT4gKFxyXG4gICAgIDxhIGhyZWY9e2hyZWZ9PlxyXG4gICAgICAge2NoaWxkcmVufVxyXG5cclxuICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgY29sb3I6IHZhcigtLWNvbG9yLTEpO1xyXG4gICAgICAgICB9XHJcbiAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgPC9hPlxyXG4gICApXHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDb21wb25lbnRzO1xyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\mdx-components.js */")),
+  p: ({
+    children
+  }) => __jsx("p", {
+    className: "jsx-983395809",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "983395809",
+    __self: undefined
+  }, "p.jsx-983395809{font-size:1.5rem;color:green;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcbWR4LWNvbXBvbmVudHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUJtQixBQUc2QixpQkFDTixZQUNiIiwiZmlsZSI6IkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcbWR4LWNvbXBvbmVudHMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBDb21wb25lbnRzID0ge1xyXG4gIGgxOiAoeyBjaGlsZHJlbiB9KSA9PiAoXHJcbiAgICA8aDE+XHJcbiAgICAgIHtjaGlsZHJlbn1cclxuXHJcbiAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBoMSB7XHJcbiAgICAgICAgICBmb250LXNpemU6IDNyZW07XHJcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xyXG4gICAgICAgIH1cclxuICAgICAgYH08L3N0eWxlPlxyXG4gICAgPC9oMT5cclxuICApLFxyXG4gICBwOiAoeyBjaGlsZHJlbiB9KSA9PiAoXHJcbiAgICAgPHA+XHJcbiAgICAgICB7Y2hpbGRyZW59XHJcblxyXG4gICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICBwIHtcclxuICAgICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcclxuICAgICAgICAgICBjb2xvcjpncmVlbjtcclxuICAgICAgICAgfVxyXG4gICAgICAgYH08L3N0eWxlPlxyXG4gICAgIDwvcD5cclxuICAgKSxcclxuICAgYTogKHsgaHJlZiwgY2hpbGRyZW4gfSkgPT4gKFxyXG4gICAgIDxhIGhyZWY9e2hyZWZ9PlxyXG4gICAgICAge2NoaWxkcmVufVxyXG5cclxuICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgYSB7XHJcbiAgICAgICAgICAgY29sb3I6IHZhcigtLWNvbG9yLTEpO1xyXG4gICAgICAgICB9XHJcbiAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgPC9hPlxyXG4gICApXHJcbn07XHJcblxyXG5leHBvcnQgZGVmYXVsdCBDb21wb25lbnRzO1xyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\mdx-components.js */")),
+  a: ({
+    href,
+    children
+  }) => __jsx("a", {
+    href: href,
+    className: "jsx-775888868",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "775888868",
+    __self: undefined
+  }, "a.jsx-775888868{color:var(--color-1);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdGl0YV9cXERvY3VtZW50c1xcTmV4dEpzXFxrYW55ZS1hcHBcXGthbnllLWFwcFxcY29tcG9uZW50c1xcbWR4LWNvbXBvbmVudHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBNkJtQixBQUdpQyxxQkFDdkIiLCJmaWxlIjoiQzpcXFVzZXJzXFx0aXRhX1xcRG9jdW1lbnRzXFxOZXh0SnNcXGthbnllLWFwcFxca2FueWUtYXBwXFxjb21wb25lbnRzXFxtZHgtY29tcG9uZW50cy5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IENvbXBvbmVudHMgPSB7XHJcbiAgaDE6ICh7IGNoaWxkcmVuIH0pID0+IChcclxuICAgIDxoMT5cclxuICAgICAge2NoaWxkcmVufVxyXG5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGgxIHtcclxuICAgICAgICAgIGZvbnQtc2l6ZTogM3JlbTtcclxuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDJyZW07XHJcbiAgICAgICAgfVxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2gxPlxyXG4gICksXHJcbiAgIHA6ICh7IGNoaWxkcmVuIH0pID0+IChcclxuICAgICA8cD5cclxuICAgICAgIHtjaGlsZHJlbn1cclxuXHJcbiAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgIHAge1xyXG4gICAgICAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xyXG4gICAgICAgICAgIGNvbG9yOmdyZWVuO1xyXG4gICAgICAgICB9XHJcbiAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgPC9wPlxyXG4gICApLFxyXG4gICBhOiAoeyBocmVmLCBjaGlsZHJlbiB9KSA9PiAoXHJcbiAgICAgPGEgaHJlZj17aHJlZn0+XHJcbiAgICAgICB7Y2hpbGRyZW59XHJcblxyXG4gICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICBhIHtcclxuICAgICAgICAgICBjb2xvcjogdmFyKC0tY29sb3ItMSk7XHJcbiAgICAgICAgIH1cclxuICAgICAgIGB9PC9zdHlsZT5cclxuICAgICA8L2E+XHJcbiAgIClcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IENvbXBvbmVudHM7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\components\\mdx-components.js */"))
 };
+/* harmony default export */ __webpack_exports__["default"] = (Components);
 
 /***/ }),
 
@@ -553,36 +480,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
-/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
 /*!********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
@@ -612,49 +509,6 @@ function _extends() {
   };
 
   return _extends.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
-/*!*************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-
-
-
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-
-    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
-
-    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
-      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
-        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
-    });
-  }
-
-  return target;
 }
 
 /***/ }),
@@ -1348,117 +1202,153 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/mdx.mdx":
+/*!***********************!*\
+  !*** ./pages/mdx.mdx ***!
+  \***********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Content */ "./components/Content.js");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Card */ "./components/Card.js");
-/* harmony import */ var _components_Quote__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Quote */ "./components/Quote.js");
-/* harmony import */ var _lib_quote_api__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../lib/quote-api */ "./lib/quote-api.js");
-
-var _jsxFileName = "C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\pages\\index.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MDXContent; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectWithoutProperties */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mdx-js/react */ "@mdx-js/react");
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_mdx_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/mdx-components */ "./components/mdx-components.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+/* harmony import */ var _components_Content__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Content */ "./components/Content.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Card */ "./components/Card.js");
 
 
+var _jsxFileName = "C:\\Users\\tita_\\Documents\\NextJs\\kanye-app\\kanye-app\\pages\\mdx.mdx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+/* @jsx mdx */
 
 
 
-const HELP_TEXT = {
-  fetch: 'With an external fetch'
+
+
+
+
+
+const makeShortcode = name => function MDXDefaultShortcode(props) {
+  console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("div", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, props, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }));
 };
 
-const Index = ({
-  quotes
-}) => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+const layoutProps = {};
+
+const MDXLayout = ({
+  children
+}) => Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["MDXProvider"], {
+  components: _components_mdx_components__WEBPACK_IMPORTED_MODULE_4__["default"],
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 22
   },
   __self: undefined
-}, __jsx(_components_Content__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 23
   },
   __self: undefined
-}, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {
+}, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Content__WEBPACK_IMPORTED_MODULE_6__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 24
   },
   __self: undefined
-}, "Kanye Quotes"), quotes.map(({
-  id,
-  quote
-}) => __jsx(_components_Card__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  key: id,
+}, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Header__WEBPACK_IMPORTED_MODULE_7__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 25
   },
   __self: undefined
-}, __jsx(_components_Quote__WEBPACK_IMPORTED_MODULE_6__["default"], {
-  text: quote,
-  helpText: HELP_TEXT[id],
+}, " MDX Page"), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(_components_Card__WEBPACK_IMPORTED_MODULE_8__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 26
   },
   __self: undefined
-})))));
+}, children))));
 
-Index.getInitialProps = async ({
-  req
-}) => {
-  const getHost = path => {
-    if (!req) return path;
-    const {
-      host
-    } = req.headers;
+function MDXContent(_ref) {
+  let {
+    components
+  } = _ref,
+      props = Object(_babel_runtime_corejs2_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["components"]);
 
-    if (host.startsWith('localhost')) {
-      return `http://${host}${path}`;
-    }
-
-    return `https://${host}${path}`;
-  };
-
-  const quotes = [Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, (await Object(_lib_quote_api__WEBPACK_IMPORTED_MODULE_7__["getQuote"])('https://api.kayne.rest')), {
-    id: 'fetch'
-  }), Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, (await Object(_lib_quote_api__WEBPACK_IMPORTED_MODULE_7__["getQuote"])(getHost('api/quote'))), {
-    id: "api-routes"
-  })];
-  return {
-    quotes
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+  return Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])(MDXLayout, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, `Hello From MDX`), Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, `This page is build with `, Object(_mdx_js_react__WEBPACK_IMPORTED_MODULE_3__["mdx"])("a", Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_1__["default"])({
+    parentName: "p"
+  }, {
+    "href": "https://mdxjs.com"
+  }, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }), `MDX`), `.`));
+}
+;
+MDXContent.isMDXComponent = true;
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!*****************************!*\
+  !*** multi ./pages/mdx.mdx ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\tita_\Documents\NextJs\kanye-app\kanye-app\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\tita_\Documents\NextJs\kanye-app\kanye-app\pages\mdx.mdx */"./pages/mdx.mdx");
 
+
+/***/ }),
+
+/***/ "@mdx-js/react":
+/*!********************************!*\
+  !*** external "@mdx-js/react" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@mdx-js/react");
 
 /***/ }),
 
@@ -1525,17 +1415,6 @@ module.exports = require("core-js/library/fn/object/get-own-property-symbols");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/keys");
-
-/***/ }),
-
-/***/ "isomorphic-fetch":
-/*!***********************************!*\
-  !*** external "isomorphic-fetch" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-fetch");
 
 /***/ }),
 
@@ -1661,4 +1540,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=mdx.js.map

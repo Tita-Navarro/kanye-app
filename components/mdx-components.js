@@ -10,29 +10,30 @@ const Components = {
         }
       `}</style>
     </h1>
-  )
-  // p: ({ children }) => (
-  //   <p>
-  //     {children}
+  ),
+   p: ({ children }) => (
+     <p>
+       {children}
 
-  //     <style jsx>{`
-  //       p {
-  //         font-size: 1.7rem;
-  //       }
-  //     `}</style>
-  //   </p>
-  // ),
-  // a: ({ href, children }) => (
-  //   <a href={href}>
-  //     {children}
+       <style jsx>{`
+         p {
+           font-size: 1.5rem;
+           color:green;
+         }
+       `}</style>
+     </p>
+   ),
+   a: ({ href, children }) => (
+     <a href={href}>
+       {children}
 
-  //     <style jsx>{`
-  //       a {
-  //         color: var(--color-1);
-  //       }
-  //     `}</style>
-  //   </a>
-  // )
+       <style jsx>{`
+         a {
+           color: var(--color-1);
+         }
+       `}</style>
+     </a>
+   )
 };
 
 export default Components;
