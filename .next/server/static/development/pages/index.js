@@ -1409,8 +1409,23 @@ const Index = ({
 Index.getInitialProps = async ({
   req
 }) => {
-  const quotes = [Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, (await Object(_lib_quote_api__WEBPACK_IMPORTED_MODULE_7__["getQuote"])()), {
+  const getHost = path => {
+    if (!req) return path;
+    const {
+      host
+    } = req.headers;
+
+    if (host.startsWith('localhost')) {
+      return `http://${host}${path}`;
+    }
+
+    return `https://${host}${path}`;
+  };
+
+  const quotes = [Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, (await Object(_lib_quote_api__WEBPACK_IMPORTED_MODULE_7__["getQuote"])('https://api.kayne.rest')), {
     id: 'fetch'
+  }), Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_0__["default"])({}, (await Object(_lib_quote_api__WEBPACK_IMPORTED_MODULE_7__["getQuote"])(getHost('api/quote'))), {
+    id: "api-routes"
   })];
   return {
     quotes
